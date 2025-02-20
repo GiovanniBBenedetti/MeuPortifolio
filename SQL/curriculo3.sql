@@ -1,0 +1,3 @@
+INSERT INTO Curriculo (Aboutme)
+VALUES ("Meu nome é Giovanni Buscarino Benedetti, tenho 17 anos e sou estudante do SESI e do SENAI, onde atualmente curso Desenvolvimento de Sistemas. Minha paixão pela tecnologia vai além da sala de aula: sou fascinado por programação e hardware, sempre buscando aprender e aprimorar minhas habilidades. Além disso, também explorei o mundo da edição de vídeos e imagens, criação de jogos e outras áreas criativas, através de um curso na SAGA. Esse conhecimento expandiu minha visão sobre o desenvolvimento digital e me deu novas perspectivas para combinar design e programação.");
+

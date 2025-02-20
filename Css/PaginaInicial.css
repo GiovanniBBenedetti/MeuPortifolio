@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+:root{
+    --cor-1 : #eeeeee;
+    --cor-2 : #6d6c6c;
+}
+
+body{
+    background-color:var(--cor-1);
+    
+
+}
+
+nav img{
+  width: 150px;
+}
+
+.navegacao a{
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+}
+.nav-item{
+  margin-left: 50px;
+}
+
+
+@media(max-width: 991px){
+  .nav-item{
+    margin-left: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////// imagem de introdução //////////////////////////*/
+.FundoIntro{
+    background-image: url(../Img/Fundo.png);
+    height: 530px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Perfil{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+.Nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+    
+}
+.Nome h1{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.FotoPerfil{
+    width: 200px;
+    border-radius: 50%;
+    border: 5px var(--cor-2) solid;
+    
+}
+
+.icones{
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+.icones a{
+    color: white;
+    background-color: var(--cor-2);
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.icones a:hover{
+  background-color: #494848;
+}
+i{
+font-size: 30px;
+margin: auto;
+}
+/*///////////////////////////// imagem de introdução //////////////////////////*/
+
+
+
+/* /////////////////////////////Sobre Mim /////////////////////////////////// */
+
+
+
+.sobremim{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+.textosobremim{
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+}
+  @media(max-width:728px){
+    .textosobremim{
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+.Conteúdo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+/* /////////////////////////////Sobre Mim /////////////////////////////////// */
+
+
+/* /////////////////////////////idioma /////////////////////////////////////*/
+
+
+.boxIdiomas{
+  
+ margin: auto;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/* ////////////////////////Habilidades//////////////// */
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .tecnologias {
+    max-width: 1000px;
+
+  }
+  .tecnologia{
+    padding: 30px;
+  }
+
+  .card {
+    padding: 3rem;
+    background: var(--cor-2);
+    align-items: center;
+    gap: 1rem;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    color: white;
+    margin-bottom: 60px;
+ 
+  }
+  
+  .card p {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.9rem;
+  }
+  
+  .card:hover {
+    background-color: #494848;
+    transform: translateY(-10px);
+  }
+  #premiere img{
+    width: 90px;
+    height: 80px;
+  }
+  .card img {
+    width: 7rem;
+    height: 5rem;
+    
+
+  }
+  .card svg{
+    font-size: 5rem;
+  }
+  
+  .tools .card img {
+    height: 5rem;
+    width: 5rem;
+  }
+
+
+
+  /*////////////////////////// Habilidades /////////////////////// */
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+.faleComiogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 70vh;
+  padding: 0 30px 0 30px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  box-shadow: 0 0 10px var(--cor-2);
+  outline: none;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+button {
+  background-color: var(--cor-2);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #494848;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  background-color: #1C1C1C;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer img{
+  width: 100px;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
